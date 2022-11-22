@@ -6,4 +6,5 @@ abstract class InterfaceDecomGps {
   onChangeSettingLocation(
       LocationAccuracy accuracy, int intervl, double distanceFilter);
   Future<LocationData> getPositionToString();
+  isdBackgroundMdoe();
 }
